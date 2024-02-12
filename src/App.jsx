@@ -88,7 +88,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div className="container">
         <Header
           onAdd={() => setShowAddTask(!showAddTask)}
           showAdd={showAddTask}
